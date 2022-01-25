@@ -1,5 +1,10 @@
+/* custom css */
 .ml-auto, .mx-auto{
     margin-left: auto!important;
+}
+
+.col-md-4{
+	margin:40px auto;
 }
 
 .custom-ul ul li{
@@ -14,38 +19,14 @@
     border-radius: 20px;
 }
 
-.col-md-4{
-	margin:40px auto;
+.custom-ul li{
+    list-style: none;
+    padding-bottom: 10px;
 }
 
 
-footer {
-    text-align: center;
-    color: #fff;
-    background: #0a0826;
-    padding: 50px 0;
-}
-
-.f-span {
-    color: #E02C6D;
-}
-
-footer .f-icons {
-    text-align: center;
-}
-
-footer .f-icons ul {
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
-    padding-top: 20px;
-}
-
-footer .f-icons ul li {
-    font-size: 25px;
-    width: 50px;
-    height: 50px;
-    background: #22213c;
-    line-height: 50px;
-    border-radius: 50%;
+@media only screen and (max-width: 1000px) {
+    .custom-best{
+        margin: 100px 0 0 0;
+    }
 }
